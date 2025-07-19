@@ -1,15 +1,17 @@
 ---
-title: "Project Two"
-summary: "Lorem ipsum dolor sit amet"
-date: "Mar 17 2022"
+title: "Bird Hunt VR"
+summary: "3D VR Unity Game"
+date: "May 17 2023"
 draft: false
 tags:
-- Svelte
-- Sveltekit
-- Typescript
-- Tailwind
+- C#
+- Unity
+demoUrl: https://birdhunt.romerojhh.dev/
+repoUrl: https://github.com/romerojhh/Bird-Hunt-VR
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+* Developed a VR shooter game where the player can interact with game objects, hunt birds, fight or befriend companion AI and explore a hand-crafted 3D world
+* Developed an in-game AI system capable of dynamic interactions with players and the environment.
+* Implemented a sophisticated bird pathing and behavior system algorithm from scratch.
+* Utilized the state design pattern to implement AI behaviors. AI can track birds and character movement, attack targets using gun, and respawn when needed
+* Utilized Unity XR interaction toolkit to make an immersive VR gameplay for the player
