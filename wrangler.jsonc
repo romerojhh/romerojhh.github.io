@@ -1,0 +1,19 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "my-astro-app",
+	"compatibility_date": "2025-07-19",
+	"observability": {
+		"enabled": true
+	},
+	"workers_dev": false,
+	"routes": [
+		{
+			"pattern": "portfolio.romerojhh.dev",
+			"custom_domain": true
+		}
+  ],
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}

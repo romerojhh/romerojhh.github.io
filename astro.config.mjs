@@ -4,8 +4,11 @@ import sitemap from "@astrojs/sitemap"
 import tailwind from "@astrojs/tailwind"
 import solidJs from "@astrojs/solid-js"
 
+import cloudflare from "@astrojs/cloudflare";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://romerojhh.github.io",
   integrations: [mdx(), sitemap(), solidJs(), tailwind({ applyBaseStyles: false })],
+  adapter: cloudflare(),
 })
