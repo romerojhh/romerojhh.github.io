@@ -5,11 +5,12 @@ interface Props {
   title: string
   description: string
   image?: string
+  icon?: string
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 
-const { title, description, image = "/open-graph.jpg" } = Astro.props
+const { title, description, image = "/open-graph.jpg", icon = "/favicon.svg" } = Astro.props
 ---
 
 <!-- Global Metadata -->
@@ -35,6 +36,7 @@ const { title, description, image = "/open-graph.jpg" } = Astro.props
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={new URL(image, Astro.url)} />
+<meta property="og:logo" content={new URL(icon, Astro.url)} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
