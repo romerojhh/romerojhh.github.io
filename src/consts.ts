@@ -31,6 +31,12 @@ export const SEARCH: Page = {
   DESCRIPTION: "Search all posts and projects by keyword.",
 }
 
+// Education Page
+export const EDUCATION: Page = {
+  TITLE: "Education",
+  DESCRIPTION: "Places where I studied."
+}
+
 // Links
 export const LINKS: Links = [
   { 
@@ -40,6 +46,10 @@ export const LINKS: Links = [
   { 
     TEXT: "Work", 
     HREF: "/work", 
+  },
+  {
+    TEXT: "Education",
+    HREF: "/education"
   },
   { 
     TEXT: "Blog", 

@@ -20,7 +20,7 @@ import Container from "@components/Container.astro"
     <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
       <nav class="hidden md:flex items-center justify-center text-sm gap-1">
         {
-          LINKS.filter(LINK => ['Home', 'Work', 'Projects'].includes(LINK.TEXT)).map((LINK) => (                                                                                                                      
+          LINKS.filter(LINK => LINK.TEXT !== 'Blog').map((LINK) => (                                                                                                                      
             <a                                                                                                                                                                                                        
               href={LINK.HREF}                                                                                                                                                                                        
               class={cn(                                                                                                                                                                                              
