@@ -1,7 +1,7 @@
 ---
 title: "Bird Hunt VR"
 summary: "3D VR Unity Game"
-date: "May 17 2023"
+date: "11/3/24"
 draft: false
 tags:
 - C#
