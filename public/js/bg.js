@@ -20,6 +20,7 @@
   }
 
   function initBG() {
+    const blur = `blur(0.9px)`;
     const particlesSmall = generateParticles(1000);
     const particlesMedium = generateParticles(500);
     const particlesLarge = generateParticles(250);
@@ -34,6 +35,7 @@
       border-radius: 50%;
       box-shadow: ${particlesSmall};
       animation: animStar 50s linear infinite;
+      filter: ${blur};
       `;
     }
 
@@ -44,6 +46,7 @@
       border-radius: 50%;
       box-shadow: ${particlesMedium};
       animation: animateParticle 100s linear infinite;
+      filter: ${blur};
       `;
     }
 
@@ -54,6 +57,7 @@
       border-radius: 50%;
       box-shadow: ${particlesLarge};
       animation: animateParticle 150s linear infinite;
+      filter: ${blur};
       `;
     }
 
@@ -70,6 +74,7 @@
       height: 1px;
       border-radius: 50%;
       box-shadow: ${starsSmall};
+      filter: ${blur};
       `;
     }
 
@@ -79,6 +84,7 @@
       height: 1.5px;
       border-radius: 50%;
       box-shadow: ${starsMedium};
+      filter: ${blur};
       `;
     }
 
@@ -88,6 +94,7 @@
       height: 2px;
       border-radius: 50%;
       box-shadow: ${starsLarge};
+      filter: ${blur};
       `;
     }
   }
