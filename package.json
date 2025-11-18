@@ -3,6 +3,8 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
+    "bootstrap": "pnpm install",
+    "update": "pnpm update",
     "dev": "astro dev",
     "dev:network": "astro dev --host",
     "start": "astro dev",
